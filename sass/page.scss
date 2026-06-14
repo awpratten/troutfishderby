@@ -1,0 +1,49 @@
+/* Background Gradient for Triadic Colors */
+.gradient1 {
+  background-color: rgb(168, 140, 13);
+  /* For WebKit (Safari, Chrome, etc) */
+  background: rgb(168, 140, 13) -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#d9b19c),
+      to(rgb(168, 140, 13))
+    ) no-repeat;
+  /* Mozilla,Firefox/Gecko */
+  background: rgb(168, 140, 13) -moz-linear-gradient(top, #d9b19c, rgb(168, 140, 13)) no-repeat;
+  /* IE 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#D9B19C, endColorstr=rgb(168, 140, 13)) no-repeat;
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#D9B19C, endColorstr=#D9B19C)"
+    no-repeat;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+#site-content {
+  background-color: white;
+  padding: 0;
+  min-height: 100vh;
+
+  & > .markdown-body {
+    padding: 1em;
+  }
+}
+
+.page-title {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.hover-help {
+  border-bottom: 1px double #aba7a7;
+  &:hover {
+    cursor: help;
+  }
+}

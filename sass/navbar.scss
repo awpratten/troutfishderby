@@ -1,0 +1,31 @@
+
+:root {
+  --bs-navbar-hover-color: #ffd700; // Used for navbar link hover color
+  --bs-nav-brand-color: #333333; // Used for navbar brand color
+  --bs-nav-link-color: #333333; // Used for navbar link color
+}
+.navbar {
+  background-color: rgba(168, 140, 13, 0.85);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  max-width: 1000px;
+  margin: auto;
+
+//   @media screen and (max-width: 1200px) {
+//     border-bottom-right-radius: 0;
+  .navbar-text a {
+    color: var(--bs-nav-link-color);
+    &:hover {
+      color: var(--bs-navbar-hover-color);
+    }
+  }
+  &:hover {
+    color: var(--bs-navbar-hover-color);
+  }
+}
+
+
+#navbar-icons {
+  font-size: 1.8em;
+}
