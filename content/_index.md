@@ -2,6 +2,7 @@
 title: Trout Fish Derby - Home
 ---
 
+![Publicity Shot](/images/tfdPubShot.jpg)
 
 Trout Fish Derby is the post ambient, experimental collaboration of guitarist Warren Pratten and electronic musician Alex Schmoll. The two first crossed paths in 2020 and quickly discovered a strong musical rapport.  What started as experiments in drone textures quickly grew into a focused collaboration where Warren's textural guitar work weaves with Alex's synthscapes.
 
