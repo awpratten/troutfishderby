@@ -19,5 +19,5 @@ Follow us on [Instagram](https://www.instagram.com/troutfishderby/) and [Youtube
 The band is keen to investigate performance and recording opportunities.   Email to [info@troutfishderby.ca](mailto:info@troutfishderby.ca)
 
 
-
+![Live at TAP](/images/tfdAtTap.jpg)
 
